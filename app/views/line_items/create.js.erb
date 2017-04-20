@@ -1,2 +1,5 @@
 // This template tells the browser to replace the content of the element whose id is cart with the defined html
 $('#cart').html("<%=j render(@cart) %>")
+
+// This uses the jquery-ui gem's effect-blind js to highlight the current_item (line item).
+$('#current_item').css({'background-color':'#88ff88'}).animate({'background-color':'#114411'}, 1000);
