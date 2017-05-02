@@ -1,4 +1,6 @@
 // This reveals the cart when it contains exactly one item
+$('#notice').hide();
+
 if ($('#cart tr').length ==1) {$('#cart').show('blind', 1000);}
 
 // This template tells the browser to replace the content of the element whose id is cart with the defined html
