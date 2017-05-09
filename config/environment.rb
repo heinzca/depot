@@ -15,7 +15,7 @@ Depot::Application.configure do
     domain:               "gmail.com",
     authentication:       "plain",
     user_name:            "heinzaufner@gmail.com",
-    password:             "coogee68",
+    password:             "secret",
     enable_starttls_auto: true
   }
 end
